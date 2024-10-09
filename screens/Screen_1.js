@@ -73,7 +73,7 @@ const ScreenOne = (props) => {
                     />
                 </TouchableOpacity>
                 <View style={styles.purchaseButton}>
-                    <Text style={styles.purchaseButtonText}>Chọn mua</Text>
+                    <Text style={styles.purchaseButtonText}>CHỌN MUA</Text>
                 </View>
             </View>
         </View>
@@ -175,17 +175,17 @@ const styles = StyleSheet.create({
         right: 8,
     },
     purchaseButton: {
-        marginTop: 15,
+        marginTop: 120,
         justifyContent: 'center',
         alignItems: 'center',
         alignSelf: 'center',
         backgroundColor: 'red',
         borderRadius: 8,
         width: '90%',
-        height: 45,
+        height: 65,
     },
     purchaseButtonText: {
-        fontSize: 17,
+        fontSize: 30,
         textAlign: 'center',
         color: '#fff',
         fontWeight: '700',
